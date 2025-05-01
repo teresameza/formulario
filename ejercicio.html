@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio</title>
+    <link rel="stylesheet" href="estilo.css">
+   
+    
+</head>
+     <form  action="https://formspree.io/f/mqaqejdd"
+     method="POST">
+        <h2>Formulario de contacto</h2>
+        <fieldset>
+            <legend> INFORMACION BASICA </legend>
+        <div class="form_input">
+            <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre"name="name" placeholder=" Teresa" required >
+        </div>
+         
+       <div class="form_input">
+        <label >Apellido
+         <input type="text"name="apellido" placeholder="Meza" required >
+        </label>
+       </div>
+         
+         <div class="form_input"> 
+            <label for="E-mail">E-mail</label>
+            <input type="email" id="E-mail"name="email" placeholder="teresameza@gmail.com" required>
+        </div>
+        
+         <div class="form_input">
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" name="" required>
+        </div>
+    </fieldset>
+         <div class="form_input">
+         <label for="mensaje">Comentarios</label>
+         <textarea rows="6"id="mensaje"  placeholder="mensaje"></textarea>
+        </div>
+            
+         <div class="form_input">
+            <label for="tipo">Tipo de usuario</label>
+        <select name="type-of-user">
+        <option value="Persona natural">Persona natural</option>
+        <option value ="Empresa">Empresa</option>
+        <option value="Otro"> Otro</option>
+    </select>
+    </div>
+
+    <div class="form_input">
+        <label for="sexo">Sexo</label>
+        <select >
+            <option value="userf" name="Femenino">Femenino</option>
+            <option value="userm" name="Masculino">Masculino</option>
+            
+        </select>
+    </div>
+
+        <div class="form_input">
+        <label for="asunto"> Asunto</label>
+            <select name="asunto">
+                <option value="reserva">Reserva o cita </option>
+                <option value="cotizacion"> Cotizacion </option>
+                <option value="pqr"> Queja o sugerencia </option>
+                <option value="soporte">Soporte tecnico</option>
+                <option value="consulta"> Consulta general</option>
+                <option value=" Solicitud">Solicitud de informacion</option>
+            </select>
+        </div>
+      
+        
+
+        <div  class="form_input checkbox_container">
+            <label>Acepto los terminos y condiciones
+            <input type="checkbox" class="checkbox">
+        </label>
+        </div>
+
+        <div class="contenedor_boton">
+            <button type="submit">Enviar</button>
+        </div>
+     </form>
+<body>
+
+</body>
+</html>
