@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat';
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+  
+    
+} 
+h2{
+    margin-bottom: 50px;
+    text-align: center;
+   
+  
+}
+form{
+  background-color: rgb(255, 250, 250);
+  padding: 50px 0;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0px 0px 10px 0px rgb(138, 192, 253);
+  border-radius: 10px;
+}
+
+.form_input{
+    padding: 6px 20px;
+    
+}
+input,textarea,select{
+   width: 100%;
+    box-sizing: border-box;
+    padding:10px 12px;
+    border: none;
+    border: 2px solid gainsboro;
+    box-shadow: 0px 0px 5px;
+    border-radius: 10px;
+    background-color:  #fff;;
+    
+}
+option{
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+textarea{
+    min-width: 100%;
+    min-height: 100px;
+    font-family: sans-serif;
+    resize: none;
+}
+
+label{
+    
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 2;
+}
+
+
+.checkbox{
+
+    width: auto;
+    height: 16px;
+    margin-right: 8px;
+}
+.checkbox_container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contenedor_boton {
+   
+    padding:  10px 20px;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    
+
+}
+button {
+    width: 100%;
+    padding: 10px 20px; border: 2px solid gainsboro;
+    border-radius: 10px  ;
+    background-color: rgb(0, 123, 255);
+    
+  }
+  
+  fieldset{
+    border:2px,solid , rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
+    padding: 6px 20px 20px 20px;
+    margin: 20px;
+    
+  }
+  legend{
+
+    padding: 0px 6px;
+    color: #5f5d5d;
+  }
